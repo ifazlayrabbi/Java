@@ -1,0 +1,83 @@
+
+Collection:
+Collection is a single entity or object
+that can store multiple data.
+
+Framework:
+Framework represents - the library (predefined classes & interfaces)
+
+
+Collection Framework:
+Collection Framework is 
+a set of predefined classes and interfaces
+- of 'Data Structures' (Non-primitive DS)
+and it can store multiple data.
+
+
+'Collection Framework' starts with an interface
+named 'Iterable'.
+- So, Iterable is the root of 'Collection Framework'.
+
+
+  Iterable (I)
+  -> Collection (I), Map (I)
+
+  Collection (I)
+  -> List, Queue, Set
+
+  List
+  -> ArrayList, LinkedList, Vector -> Stack
+  Queue
+  -> PriorityQueue
+  -> Dequeue -> ArrayDequeue
+  Set
+  -> HashSet
+  -> LinkedHashSet
+  -> SortedSet -> NavigableSet -> TreeSet
+
+  Map (I)
+  -> HashMap, SortedMap, HashTable
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algorithm: 
+ - Makes Application fast
+search, sort, insert, update, delete
+
+Data Structure:
+ - Stores data into memory in an efficient way
+   (time & space complexity.)
+
+Data Structure is 2 types:
+  i) Primitive DS   ii) Non-primitive DS
+
+Primitive DS: 
+(8 return types)
+  - byte, short, int, long, 
+  - float, double, 
+  - character, boolean
+
+Non-primitive DS:
+  1. Linear DS   2. Non-linear DS
+
+Linear DS:
+String, Array
+List, Set, Queue,
+ArrayList, LinkedList,
+HashSet, LinkedHashSet
+
+Non-linear DS:
+Graph, Tree
+

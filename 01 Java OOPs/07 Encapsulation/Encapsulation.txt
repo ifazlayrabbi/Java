@@ -1,0 +1,18 @@
+Encapsulation:
+Encapsulation is the process of combining 
+"the variables and the functions" together.
+
+->  We can achieve Encapsulation by creating a class.
+->  A class holds the variables and functions together.
+->  Data Hiding can be achieved by implementing Encapsulation.
+
+
+
+Data Hiding
+-----------
+Data Hiding is the process of protecting 
+the elements of a class from unintended changes.
+
+->  Data hiding is implemented using access modifier.
+
+

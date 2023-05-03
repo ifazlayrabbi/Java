@@ -1,0 +1,17 @@
+
+Inheritence
+------------------
+i) Base Class/ Parent Class/ Super Class
+ii) Derived Class/ Child Class/ Sub Class
+
+
+Types of Inheritence
+C++   -> 5 types    (Multiple Inheritence)
+Java  -> 4 types    (Interface)
+
+1. Single-level Inheritence
+2. Multi-level       "
+3. Hierarchical      "
+4. Hybrid            "
+
+

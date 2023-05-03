@@ -1,0 +1,34 @@
+Access Modifier
+---------------
+"Access Modifiers" are some kewords, 
+that protect the elements of a class
+from unintended changes.
+
+->  "Data Hiding" can be achieved by implementing "Access Modifier".
+
+
+
+
+In Java, there are 4 types of Access Modifier.
+Types: 4 types
+
+1) public
+2) protected
+3) default
+4) private
+
+
+A. Modifier\ Scopes	class		package (file)	sub-class (extends)	import
+
+public			  Y		   Y				Y			  Y
+
+protected			  Y		   Y				Y			  N
+
+default			  Y		   Y				N			  N
+
+private			  Y		   N				N			  N
+
+
+
+
+

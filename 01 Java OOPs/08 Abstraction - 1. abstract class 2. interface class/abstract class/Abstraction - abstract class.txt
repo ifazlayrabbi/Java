@@ -1,0 +1,36 @@
+
+Abstraction is the process of 
+hiding the implementation details
+and showing the necessary parts - to the user.
+
+
+Abstraction is 2 types:
+
+1) Abstract class
+2) Interface class
+
+
+
+Properties of Abstract class
+------------------------------------
+*  One class can inherit only one class 
+   (which can be either abstract class or common class).
+*  Abstract class is extended. (extends)
+
+1) Abstract class is declared with an abstract keyword.
+2) Abstract class can have abstract and non abstract methods.
+3) It can have constructors.
+4) "Object" can not be created, (because, it is abstract).
+5) When derived class's object is created,
+   first, base class's constructor is called,
+   second, derived class's constructor is called.
+   (Constructor chaining.)
+6) Abstract class can have final, non-final, static, and non-static variables.
+
+7) To declare "abstract function", we need "abstract class".
+8) "abstract class" may or may not contain "abstract function"
+   but the reason of creating "abstract class" is to declare "abstract function".
+9) "abstract function" doesn't have a body.
+10) If a class inherits "abstract class" which contains "abstract function",
+   then the derived class must to define the "abstract function".
+

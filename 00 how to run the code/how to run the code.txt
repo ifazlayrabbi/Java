@@ -1,0 +1,9 @@
+javac -d . *.java
+java filename.java
+
+
+Good Explanation (Run the code considering the packages)
+--------------------------------------------------------
+Java Tutorial: Creating Packages in Java
+https://youtu.be/av816KIz8nM?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q
+https://youtu.be/av816KIz8nM

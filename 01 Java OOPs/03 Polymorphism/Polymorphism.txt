@@ -1,0 +1,15 @@
+
+Polymorphism
+----------------
+Poly      = many
+Morphism  = form
+
+One task can be done in may ways - that is polymorphism.
+(One function can be used in many ways.)
+
+
+
+Types: 2
+i) Function Overloading     - Compile-time P.
+ii) Function Overriding     - Run-time P.
+

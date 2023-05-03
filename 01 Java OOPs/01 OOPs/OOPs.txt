@@ -1,0 +1,14 @@
+
+OOPs
+----------
+Class, Object
+
+OOPs    = OOPs is a programming system that is Object-centric.
+Class   = Class is a Structure/ Blueprint/ Schema/ Design.
+Object  = Object is built using the Structure.
+
+
+
+Examples:
+Class   = The design of a Car.
+Object  = The Car

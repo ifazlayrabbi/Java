@@ -1,0 +1,86 @@
+There are 2 types of Exceptions:
+
+1. Checked Ex.   (Compile time Ex.)
+2. Unchecked Ex. (Run time Ex.    )
+
+
+* Compile time exception is handled by the Compiler.
+* Run time exception is manually handled by the Programmar.
+
+Some common run time exceptions
+-------------------------------
+1. Null Pointer Ex.
+2. Arithmetic 	Ex.
+3. ArrayIndexOutOfBounds Ex.
+4. Illegal Argument   Ex.
+5. Number format	      Ex.
+
+
+
+Exception Handling
+------------------
+try
+catch
+finally
+
+
+
+Custom Exceptions
+-----------------
+* Custom exceptions can be created
+  or, default exceptions can be modified.
+
+throws = to declare exception
+throw  = to create exception
+
+
+
+
+
+
+public class Custom_exception {
+
+private static void circle_area throws NegativeRadiusException (int radius) {
+  if(radius < 0){
+    throw new NegativeRadiusException ("Radius can't be negative.");
+  }
+  double radius = 3.1416 * radius * radius;
+  System.out.println ("Circle radius: " + radius);
+}
+
+public static void main (String[] args) {
+  try {
+    circle_area (-2);
+  }
+  catch (NegativeRadiusException err) {
+    System.out.pirntln(err);
+  }
+  System.out.println("All the exceptions are handled successfully.");
+}
+
+}
+
+
+
+
+class NegativeRadiusException {
+  String msg;
+
+  public String toString () {
+    return "packages.NegativeRadiusException" + getMessage();
+  }
+  
+  public String getMessage () {
+    return msg;
+  }
+
+  NegativeRadiusException () {
+    this.msg = "";
+  }
+
+  NegativeRadiusException (String msg) {
+    this.msg = ": " + msg;
+  }
+}
+
+

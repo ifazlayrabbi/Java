@@ -1,0 +1,28 @@
+Abstraction is the process of 
+hiding the implementation details
+and showing the necessary parts - to the user.
+
+
+Abstraction is 2 types:
+
+1) Abstract class
+2) Interface class
+
+
+
+Properties of Interface class
+------------------------------------
+*  One class can inherit multiple "interface class".
+*  interface class is implemented. (implements)
+
+1) No constructor. No object.
+
+2) Functions are by default "public and abstract".
+   That’s why interface is also known as a pure (100%) abstract class.
+
+3) Variables are by default "public, static and final".
+
+4) Derived classes must define all of the Interface class's functons.
+
+5) Interface supports the functionality of multiple inheritance.
+   - One class can inherit multiple "interface class".

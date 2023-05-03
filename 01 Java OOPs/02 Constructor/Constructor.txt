@@ -1,0 +1,21 @@
+
+Types of Constructor: 3
+i) Non-parameterized Constructor
+ii) Parameterized         "
+iii) Copy                 "
+
+
+
+Characteristics of Constructor:
+
+1) Constructor is a function,
+   it has the same name as the Class name.
+
+2) Constructor doesn't return,
+   - no return type.
+
+3) Constructor creates Objects.
+
+4) Constructor can only be called once.
+
+5) A Class can have many constructors.
