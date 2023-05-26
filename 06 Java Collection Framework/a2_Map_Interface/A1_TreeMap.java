@@ -1,11 +1,12 @@
-package packages;
-import java.util.HashMap;
+package a2_Map_Interface;
+import java.util.TreeMap;
 
-public class A1_HashMap {
+public class A1_TreeMap {
   public static void main (String[] args) {
-    HashMap <String, Integer> map = new HashMap <> ();
+    TreeMap <String, Integer> map = new TreeMap <> ();
     // key-value pair
-    // HashMap = un-ordered list
+    // TreeMap = ascending order list
+
 
     map.put("b-one", 1);
     // map.put("two", 2);
@@ -28,15 +29,18 @@ public class A1_HashMap {
 
     System.out.println(map);
 
+    map.remove("three");
+    System.out.println(map);
 
 
 
 
-    for (HashMap.Entry <String, Integer> element: map.entrySet()) {
-      System.out.println(element);
-      // System.out.println(element.getKey());
-      // System.out.println(element.getValue());
-    }
+
+    // for (TreeMap.Entry <String, Integer> element: map.entrySet()) {
+    //   System.out.println(element);
+    //   // System.out.println(element.getKey());
+    //   // System.out.println(element.getValue());
+    // }
 
     // for (String key: map.keySet()) {
     //   System.out.println(key);
@@ -52,3 +56,4 @@ public class A1_HashMap {
 
   }
 }
+

@@ -1,4 +1,4 @@
-package packages;
+package a1_Collection_Interface;
 import java.util.PriorityQueue;
 
 public class A2_1_PriorityQueue {

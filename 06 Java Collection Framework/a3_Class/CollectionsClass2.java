@@ -1,5 +1,4 @@
-package packages;
-import packages.Student;
+package a3_Class;
 
 import java.util.ArrayList;
 import java.util.Collections;

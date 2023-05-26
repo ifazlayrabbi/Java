@@ -1,9 +1,9 @@
-package packages;
-import java.util.LinkedList;
+package a1_Collection_Interface;
+import java.util.ArrayList;
 
-public class A1_LinkedList2 {
+public class A1_ArrayList1 {
   public static void main (String[] args) {
-    LinkedList <String> list = new LinkedList <> ();
+    ArrayList <String> list = new ArrayList <> ();
 
     list.add("book-1");
     list.add("book-3");

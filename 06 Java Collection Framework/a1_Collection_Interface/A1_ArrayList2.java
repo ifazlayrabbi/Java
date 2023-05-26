@@ -1,9 +1,9 @@
-package packages;
+package a1_Collection_Interface;
 import java.util.ArrayList;
 
 
 
-public class A1_ArrayList1 {
+public class A1_ArrayList2 {
   public static void main (String[] args) {
     Print_integer print_integer = new Print_integer();
     Print_all print_all = new Print_all();

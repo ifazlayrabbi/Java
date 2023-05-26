@@ -1,12 +1,13 @@
-package packages;
-import java.util.TreeSet;
+package a1_Collection_Interface;
+import java.util.HashSet;
 import java.util.Iterator;
 
-public class A3_3_TreeSet {
+public class A3_1_HashSet {
   public static void main (String[] args) {
-    TreeSet <String> set = new TreeSet <> ();
-    // TreeSet sort values Ascending order
-
+    HashSet <String> set = new HashSet <> ();
+    // HashSet doesn't contain duplicate values.
+    // HashSet stores values randomly.
+    
     set.add("Rahim");
     set.add("Karim");
     set.add("Rahim");
@@ -17,20 +18,18 @@ public class A3_3_TreeSet {
     set.add("Fatima");
     // System.out.println(set);
 
-    // can't implement for loop
+    // set can't implement for loop
     Iterator <String> itr = set.iterator();
     while (itr.hasNext()){
-      String str = itr.next();
-      System.out.println(str);
+      System.out.println(itr.next());
     }
 
     System.out.println("\n");
     set.remove("Fatima");
-    
+
     Iterator <String> itr2 = set.iterator();
     while (itr2.hasNext()){
-      String str = itr2.next();
-      System.out.println(str);
+      System.out.println(itr2.next());
     }
 
 
@@ -40,6 +39,9 @@ public class A3_3_TreeSet {
       System.out.println("Fatima not found.");
     
     System.out.println("Set size = " + set.size());
+    System.out.println(set.isEmpty());
+    set.clear();
+    System.out.println(set.isEmpty());
 
   }
 }

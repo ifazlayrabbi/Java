@@ -1,4 +1,4 @@
-package packages;
+package a1_Collection_Interface;
 import java.util.Queue;
 import java.util.PriorityQueue;
 import java.util.Comparator;

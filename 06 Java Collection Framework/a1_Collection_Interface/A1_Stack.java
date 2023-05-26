@@ -1,4 +1,4 @@
-package packages;
+package a1_Collection_Interface;
 import java.util.Stack;
 
 public class A1_Stack {

@@ -1,4 +1,4 @@
-package packages;
+package a1_Collection_Interface;
 import java.util.ArrayDeque;
 
 public class A2_3_ArrayDeque {
