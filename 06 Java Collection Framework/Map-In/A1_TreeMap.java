@@ -8,9 +8,9 @@ public class A1_TreeMap {
     // TreeMap = ascending order list
 
 
-    map.put("one", 1);
+    map.put("b-one", 1);
     // map.put("two", 2);
-    map.put("three", 3);
+    map.put("c-three", 3);
     
 
 
@@ -19,7 +19,7 @@ public class A1_TreeMap {
 
     // System.out.println(map);
 
-    map.putIfAbsent("two", 4);
+    map.putIfAbsent("a-two", 4);
     System.out.println(map);
 
 

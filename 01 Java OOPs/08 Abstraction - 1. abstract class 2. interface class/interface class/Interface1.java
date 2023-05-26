@@ -15,12 +15,12 @@ interface Animal {
   int eyes = 2;   // by default public, static & final.
 }
 
-interface Herbivore {
+interface Size {
   void size ();                       // by default public & abstract.
   String eat = "Only eat plants.";    // by default public, static & final.
 }
 
-class Deer implements Animal, Herbivore {
+class Deer implements Animal, Size {
   public void walk () { System.out.println("Deer walks on 4 legs."); }
   public void size () { System.out.println("Deer is a Medium sized animal."); }
 }

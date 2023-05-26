@@ -18,7 +18,7 @@ public class A2_2_Queue {
 
     System.out.println(queue);
     System.out.println("Queue peek: " + queue.peek());
-    System.out.println("Queue poll: " + queue.poll());
+    System.out.println("Queue poll: " + queue.poll());  // delete
     System.out.println(queue);
     System.out.println("Queue peek: " + queue.peek());
     

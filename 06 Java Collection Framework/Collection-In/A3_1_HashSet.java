@@ -21,8 +21,7 @@ public class A3_1_HashSet {
     // set can't implement for loop
     Iterator <String> itr = set.iterator();
     while (itr.hasNext()){
-      String str = itr.next();
-      System.out.println(str);
+      System.out.println(itr.next());
     }
 
     System.out.println("\n");
@@ -30,8 +29,7 @@ public class A3_1_HashSet {
 
     Iterator <String> itr2 = set.iterator();
     while (itr2.hasNext()){
-      String str = itr2.next();
-      System.out.println(str);
+      System.out.println(itr2.next());
     }
 
 
